@@ -62,4 +62,4 @@ jobs:
           app-name: 'Capstone-DigitalSkola-Khalid'
           slot-name: 'Production'
           package: .
-          
+          startup-command: 'npx serve -s . -l 8080'
