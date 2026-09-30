@@ -29,7 +29,6 @@ Project akhir (Capstone) program Digital Skola Cloud Engineer berupa aplikasi We
 | **Deployment** | ✅ **Done** | Berhasil deploy ke Azure App Service di region `indonesiacentral` menggunakan Linux environment. |
 | **Keamanan** | ✅ **Done** | Menggunakan OIDC (tanpa hardcoded secrets atau password statis di repository) dan hak akses dibatasi menggunakan Azure IAM (Website Contributor). |
 | **Monitoring** | ✅ **Done** | Menggunakan built-in Azure App Service Metrics & Logs (memantau CPU, Memory, Data In/Out, dan HTTP Status). |
-| **Scaling** | ✅ **Optional** | Konfigurasi dasar di Free Tier (`indonesiacentral`) dengan opsi manual/auto-scale via App Service Plan. |
 | **Dokumentasi** | ✅ **Done** | File `README.md` komprehensif di repository GitHub. |
 
 ---
@@ -76,7 +75,7 @@ bun run preview  # preview the production build
 
 [Locomotive-Scroll](https://www.npmjs.com/package/locomotive-scroll)
 
-#-------------------------------------------------------------------------------------------------------------------------------------
+
 
 # 🔥Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]
 
