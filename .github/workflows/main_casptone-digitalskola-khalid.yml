@@ -51,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_0D462CBAFAC74FF9B044E8E5A5598A20 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_CAC1F7216F7E484DB3F846230BE3E4D0 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_8E12FA820B36495585E64AE40AAF9E7A }}
+          client-id: 'fd97e0d8-5b36-4679-aba5-db70b0a99f4c'
+          tenant-id: '90affe0f-c2a3-4108-bb98-6ceb4e94ef15'
+          subscription-id: '00f2ac2e-e3d6-4d1d-8550-6628a7bdfce2'
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -62,4 +62,4 @@ jobs:
           app-name: 'casptone-digitalskola-khalid'
           slot-name: 'Production'
           package: .
-          
+          tartup-command: 'npx serve -s build -l 8080'
