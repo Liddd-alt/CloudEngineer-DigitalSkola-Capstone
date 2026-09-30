@@ -142,7 +142,7 @@ const CoverVideo = () => {
           data-scroll-delay="0.04"
           data-scroll-speed="2"
         >
-          Captone Project, Cloud Engineer, Digital Skola
+          Capstone Project, Cloud Engineer, Digital Skola
         </motion.h2>
       </Title>
 
