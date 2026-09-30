@@ -53,4 +53,3 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4D9C36FC6E5E4600A480BEBFB679D30A }}
-          startup-command: 'npx serve -s build -l 8080'
