@@ -1,3 +1,83 @@
+# 🚀 CloudEngineer-DigitalSkola-Capstone
+
+Project akhir (Capstone) program Digital Skola Cloud Engineer berupa aplikasi Web (Fashion Studio) yang di-deploy secara otomatis ke **Azure App Service (Linux)** menggunakan **GitHub Actions** dengan sistem autentikasi **OIDC (OpenID Connect)**.
+
+```markdown
+# 🚀 CloudEngineer-DigitalSkola-Capstone
+
+Project akhir (Capstone) program Digital Skola Cloud Engineer berupa aplikasi Web (Fashion Studio) yang di-deploy secara otomatis ke **Azure App Service (Linux)** menggunakan **GitHub Actions** dengan sistem autentikasi **OIDC (OpenID Connect)**.
+
+```
+
+---
+
+## 🛠️ Tech Stack & Architecture (Capstone Deployment)
+
+* **Cloud Provider:** Microsoft Azure (Region: `indonesiacentral`)
+* **Hosting Service:** Azure App Service (App Service Plan: Free Tier F1)
+* **Runtime:** Node.js / Vite
+* **CI/CD Pipeline:** GitHub Actions
+* **Authentication:** Azure Managed Identity dengan Federated Credentials (OIDC)
+
+---
+
+## 📋 Kriteria Teknis & Implementasi
+
+| Aspek | Status | Keterangan Implementasi |
+| --- | --- | --- |
+| **CI/CD** | ✅ **Done** | Otomatisasi pipeline mencakup build, test, dan deploy via GitHub Actions setiap kali ada push ke branch `main`. |
+| **Deployment** | ✅ **Done** | Berhasil deploy ke Azure App Service di region `indonesiacentral` menggunakan Linux environment. |
+| **Keamanan** | ✅ **Done** | Menggunakan OIDC (tanpa hardcoded secrets atau password statis di repository) dan hak akses dibatasi menggunakan Azure IAM (Website Contributor). |
+| **Monitoring** | ✅ **Done** | Menggunakan built-in Azure App Service Metrics & Logs (memantau CPU, Memory, Data In/Out, dan HTTP Status). |
+| **Scaling** | ✅ **Optional** | Konfigurasi dasar di Free Tier (`indonesiacentral`) dengan opsi manual/auto-scale via App Service Plan. |
+| **Dokumentasi** | ✅ **Done** | File `README.md` komprehensif di repository GitHub. |
+
+---
+
+## 🌐 Live Application URL
+
+Aplikasi dapat diakses secara publik melalui tautan Azure Web App berikut:
+👉 **[https://casptone-digitalskola-khalid-e6ghfwb0gqa0cxhv.indonesiacentral-01.azurewebsites.net](https://casptone-digitalskola-khalid-e6ghfwb0gqa0cxhv.indonesiacentral-01.azurewebsites.net)**
+
+---
+
+---
+
+# Original App Documentation: Wibe Studio (React JS)
+
+> **Note:** Below is the original documentation of the application template used for this capstone project.
+
+# 🔥Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]
+
+This repository contains final code for Fashion Studio Website in ReactJS.
+
+
+
+View Demo👇:
+https://wibe-studio.netlify.app/
+
+### Run Locally (Development)
+```bash
+bun install
+bun run dev      # start dev server at http://localhost:3000
+bun run build    # production build to ./build
+bun run preview  # preview the production build
+```
+
+### External Libraries used in this project:
+
+[styled-components](https://styled-components.com/docs/advanced)
+
+[GSAP](https://greensock.com/gsap/)
+
+[Framer-Motion](https://www.framer.com/motion/)
+
+[React-Locomotive-Scroll](https://www.npmjs.com/package/react-locomotive-scroll)
+
+[Locomotive-Scroll](https://www.npmjs.com/package/locomotive-scroll)
+
+#-------------------------------------------------------------------------------------------------------------------------------------
+
 # 🔥Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]
 
 ![GitHub stars](https://img.shields.io/github/stars/codebucks27/wibe-studio-starter-files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
